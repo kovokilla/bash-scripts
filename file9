@@ -1,0 +1,100 @@
+Active Internet connections (w/o servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0     64 ip-172-31-93-107.ec:ssh 192.46.111.5:64001      ESTABLISHED
+Active UNIX domain sockets (w/o servers)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  10     [ ]         DGRAM                    11815    /run/systemd/journal/dev-log
+unix  2      [ ]         DGRAM                    26176    /run/user/1000/systemd/notify
+unix  2      [ ]         DGRAM                    20814    /var/run/chrony/chronyd.sock
+unix  3      [ ]         DGRAM                    11614    /run/systemd/notify
+unix  2      [ ]         DGRAM                    11616    /run/systemd/cgroups-agent
+unix  6      [ ]         DGRAM                    11632    /run/systemd/journal/socket
+unix  2      [ ]         STREAM     CONNECTED     26152    
+unix  3      [ ]         STREAM     CONNECTED     20720    
+unix  3      [ ]         STREAM     CONNECTED     20268    
+unix  2      [ ]         STREAM     CONNECTED     24852    
+unix  3      [ ]         STREAM     CONNECTED     22723    
+unix  2      [ ]         DGRAM                    21121    
+unix  3      [ ]         STREAM     CONNECTED     22905    
+unix  3      [ ]         STREAM     CONNECTED     21060    /var/lib/sss/pipes/private/sbus-monitor
+unix  3      [ ]         STREAM     CONNECTED     23145    
+unix  3      [ ]         STREAM     CONNECTED     21131    
+unix  3      [ ]         STREAM     CONNECTED     26114    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20994    /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     20269    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     26182    
+unix  3      [ ]         DGRAM                    19005    
+unix  2      [ ]         DGRAM                    21043    
+unix  3      [ ]         DGRAM                    26179    
+unix  3      [ ]         STREAM     CONNECTED     20722    /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     21059    
+unix  3      [ ]         STREAM     CONNECTED     22689    
+unix  3      [ ]         STREAM     CONNECTED     19532    
+unix  3      [ ]         STREAM     CONNECTED     20451    
+unix  2      [ ]         STREAM     CONNECTED     22788    
+unix  2      [ ]         DGRAM                    26236    
+unix  3      [ ]         STREAM     CONNECTED     20400    
+unix  3      [ ]         STREAM     CONNECTED     21039    /var/lib/sss/pipes/private/sbus-monitor
+unix  3      [ ]         STREAM     CONNECTED     24779    
+unix  3      [ ]         STREAM     CONNECTED     21010    /var/lib/sss/pipes/private/sbus-monitor
+unix  3      [ ]         STREAM     CONNECTED     20452    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     21009    
+unix  3      [ ]         STREAM     CONNECTED     26112    
+unix  3      [ ]         STREAM     CONNECTED     21118    
+unix  3      [ ]         STREAM     CONNECTED     21030    
+unix  3      [ ]         STREAM     CONNECTED     20401    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     24089    
+unix  3      [ ]         STREAM     CONNECTED     20993    
+unix  3      [ ]         DGRAM                    26178    
+unix  3      [ ]         STREAM     CONNECTED     21119    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     24088    
+unix  2      [ ]         DGRAM                    18018    
+unix  3      [ ]         STREAM     CONNECTED     26684    
+unix  3      [ ]         DGRAM                    11618    
+unix  3      [ ]         STREAM     CONNECTED     23146    /run/dbus/system_bus_socket
+unix  2      [ ]         STREAM     CONNECTED     26184    
+unix  3      [ ]         STREAM     CONNECTED     21053    /var/lib/sss/pipes/private/sbus-dp_implicit_files.632
+unix  3      [ ]         STREAM     CONNECTED     21052    
+unix  3      [ ]         STREAM     CONNECTED     20172    
+unix  2      [ ]         DGRAM                    19523    
+unix  3      [ ]         STREAM     CONNECTED     26244    
+unix  2      [ ]         STREAM     CONNECTED     24787    
+unix  3      [ ]         STREAM     CONNECTED     19533    
+unix  3      [ ]         STREAM     CONNECTED     24709    
+unix  3      [ ]         STREAM     CONNECTED     23728    /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    20729    
+unix  3      [ ]         STREAM     CONNECTED     24710    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    18417    
+unix  2      [ ]         STREAM     CONNECTED     25540    
+unix  2      [ ]         DGRAM                    21040    
+unix  3      [ ]         STREAM     CONNECTED     22690    /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    19004    
+unix  3      [ ]         STREAM     CONNECTED     26183    /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    24805    
+unix  3      [ ]         STREAM     CONNECTED     22724    /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    21000    
+unix  3      [ ]         STREAM     CONNECTED     21132    /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    18876    
+unix  3      [ ]         STREAM     CONNECTED     26243    
+unix  2      [ ]         STREAM     CONNECTED     25922    
+unix  2      [ ]         DGRAM                    21020    
+unix  3      [ ]         STREAM     CONNECTED     22906    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    22843    
+unix  3      [ ]         STREAM     CONNECTED     26685    /var/lib/sss/pipes/nss
+unix  2      [ ]         DGRAM                    26163    
+unix  3      [ ]         STREAM     CONNECTED     23727    
+unix  2      [ ]         DGRAM                    24789    
+unix  2      [ ]         DGRAM                    22703    
+unix  3      [ ]         DGRAM                    11619    
+unix  3      [ ]         STREAM     CONNECTED     20721    
+unix  3      [ ]         STREAM     CONNECTED     21031    /var/lib/sss/pipes/private/sbus-dp_implicit_files.632
+unix  3      [ ]         STREAM     CONNECTED     24780    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     21038    
+unix  3      [ ]         STREAM     CONNECTED     18855    /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    26154    
+unix  3      [ ]         STREAM     CONNECTED     18854    
+unix  2      [ ]         STREAM     CONNECTED     23067    
+unix  2      [ ]         STREAM     CONNECTED     25927    
+Active Bluetooth connections (w/o servers)
+Proto  Destination       Source            State         PSM DCID   SCID      IMTU    OMTU Security
+Proto  Destination       Source            State     Channel
