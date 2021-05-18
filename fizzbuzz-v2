@@ -1,0 +1,40 @@
+#!/bin/bash
+LOW=$1
+HIGH=$2
+MAX=$3
+
+if [ $(("${1}")) -eq 0 ]
+    then
+    LOW=3
+fi
+
+if [ $(("${2}")) -eq 0 ]
+    then
+    HIGH=5
+fi
+
+if [ $(("${3}")) -eq 0 ]
+    then
+    MAX=100
+fi
+
+for COUNTER in `seq 1 $MAX`
+    do
+      if [ $(("${COUNTER}%${LOW}")) -eq 0 -a $(("${COUNTER}%${HIGH}")) -eq 0 ]
+      then
+        echo "fizzbuzz"
+      elif [ $(("${COUNTER}%${LOW}")) -eq 0 ]
+          then
+          echo "fizz aka low"
+      elif [ $(("${COUNTER}%${HIGH}")) -eq 0 ]
+          then
+          echo "buzz aka high"
+      else
+          echo ${COUNTER}
+      fi
+    done
+
+
+echo low is : "${LOW}"
+echo high is : "${HIGH}"
+echo max is : "${MAX}"
