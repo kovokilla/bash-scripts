@@ -1,0 +1,19 @@
+#!/bin/bash
+
+A=1
+NUM=$1
+
+if [ $(($NUM)) -eq 0 ]
+  then
+  echo Please provide 1 parameter to the script of factorial!
+  exit 1
+fi
+
+while [ $(($NUM)) -gt 1 ]
+    do
+      A=$(($A*$NUM))
+      NUM=$(($NUM-1))
+    done
+
+
+echo fact of "${1}" is : "${A}"
